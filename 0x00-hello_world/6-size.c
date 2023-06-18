@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * mian -Entry point
+ * mian - Entry point
  *
  * Description: using sizeof to print the size of various types.
  *
