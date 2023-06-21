@@ -1,8 +1,8 @@
 #include"main.h"
 
 /**
- * print_alphabet - utilizes on the _putchar function to print
- *                 the alphabet a - z
+ * mian - Entry point
+ *
  *Description: prints _putchar using putchar ptototype
  *
  * Return: Always 0 (Success)
