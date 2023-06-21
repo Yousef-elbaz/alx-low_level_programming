@@ -3,16 +3,18 @@
 /**
  * print_alphabet - utilizes on the _putchar function to print
  *                 the alphabet a - z
+ *Description: prints _putchar using putchar ptototype
+ *
+ * Return: Always 0 (Success)
 */
 
-void print_alphabet(void)
+int main(void)
 {
-	char alp = 'a';
+	char str[] = "_putchar";
+	int ch;
 
-	while (alp <= 'z')
-	{
-		_putchar(alp);
-		alp++;
-	}
-	_putchar('\n');
-}
+	for (ch = 0; ch < 8; ch++)
+		_putchar(str[ch]);
+	-putchar('\n');
+
+	return (0);
